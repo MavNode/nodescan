@@ -109,11 +109,13 @@ VALIDATOR_ADDRESS_BASE64 = "REPLACE_WITH_YOUR_BASE64_ADDRESS"
 
 ```python
 BASE_URLS = [
-    "https://api-primary.yournode.com",  # Primary node's REST API endpoint
-    "https://api-secondary.yournode.com" # Secondary node's REST API endpoint
+    "https://api-primary.rest.com",  # Primary node's REST API endpoint
+    "https://api-secondary.rest.com" # Secondary node's REST API endpoint
 ]
-VALIDATOR_ADDRESS_BASE64 = "5dq1B/Z03lNqehSRAZ69RuyDbYA="
+VALIDATOR_ADDRESS_BASE64 = "your/base64="
 ```
+
+Get your Base64 address by encoding your HEX address here: https://base64.guru/converter/encode/hex
 
 ## Setting Up systemd Service
 
