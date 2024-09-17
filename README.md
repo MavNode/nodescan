@@ -1,4 +1,3 @@
-```markdown
 # Validator Node Monitor Telegram Bot
 
 ## 🛠 Features
@@ -42,7 +41,7 @@ Before setting up the **Validator Node Monitor Telegram Bot**, ensure you have t
 
 First, clone the repository to your local machine:
 
-```bash
+```
 git clone (https://github.com/MavNode/nodescan/tree/main)
 cd nodescan
 ```
